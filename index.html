@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title> My Personal Website </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="h1"> Photo Gallery </h1>
+
+        <section id="Grid-view">
+            <h3>Grid Gallery</h3>
+            <div class="line"></div>
+            <span>
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1613660763/Photo%20Gallery/COLOR_POP_pxueu9.jpg">
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534597/Photo%20Gallery/IMG_0234_n69r4y.jpg">
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534575/Photo%20Gallery/IMG_0232_g1gnpd.jpg">
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534567/Photo%20Gallery/IMG_0224_iwoblp.jpg">
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534510/Photo%20Gallery/IMG_0064_ksuttn.jpg">
+                <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1613660762/Photo%20Gallery/205bf61d-e351-4ce5-9d8e-feccca956050_lxotgl.jpg">
+            </span>
+        </section>
+        <section id="Slide-view">
+            <h3>Sliding Gallery</h3>
+            <div class="line"></div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1613660762/Photo%20Gallery/205bf61d-e351-4ce5-9d8e-feccca956050_lxotgl.jpg">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1613660763/Photo%20Gallery/COLOR_POP_pxueu9.jpg">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534575/Photo%20Gallery/IMG_0232_g1gnpd.jpg">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534510/Photo%20Gallery/IMG_0064_ksuttn.jpg">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img width="352" height="500" style="border: 0px;" src="https://res.cloudinary.com/aarnacloud/image/upload/v1614534567/Photo%20Gallery/IMG_0224_iwoblp.jpg">
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span> </a>
+
+            </div>
+        </section>
+
+
+    </div>
+</body>
+
+</html>
